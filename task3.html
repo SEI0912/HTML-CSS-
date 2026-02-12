@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>フォーム作成</title>
+        <meta name="description" context="フォームを初めて作成しました。">
+    </head>
+
+    <body>
+        <header>
+            <h1>回答フォーム</h1>
+            <p>あなたのことを教えてください。</p>
+        </header>
+        <form action="example.php" method="post" name=""contact-form>
+            <div>
+                名前:<input type="text" placeholder="名字　名前">
+            </div>
+            <div>
+            性別:
+            <input type="radio" name="gender" value="男">男
+            <input type="radio" name="gender" value="女" checked>女
+            <input type="radio" name="gender" value="その他">その他
+            </div>
+            <div>
+                好きな色:
+                <input type="checkbox" name="color" value="赤" id="red">
+                <label for="red">赤</label>
+                <input type="checkbox" name="color" value="青" id="blue">
+                <label for="blue">青</label>
+                <input type="checkbox" name="color" value="黄" id="yellow">
+                <label for="yellow">黄</label>
+                <input type="checkbox" name="color" value="緑" id="green">
+                <label for="green">緑</label>
+            </div>
+            <div>
+                <input type="submit" value="登録">
+            </div>
+            <div>
+                <input type="image" src="images/figure3.png" alt="送信する">
+            </div>
+            <div>
+                血液型
+                <select name="bloodtype">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="O">O</option>
+                    <option value="AB">AB</option>
+                    <option value="不明">不明</option>
+                </select>
+            </div>
+            <div>
+                <textarea name="message" placeholder="メッセージを入力"></textarea> 
+            </div>
+        </form>
+    </body>
+</html>

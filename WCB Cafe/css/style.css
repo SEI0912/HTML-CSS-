@@ -1,0 +1,89 @@
+@charset "UTF-8";
+html{
+    font-size:100%;
+}
+body{
+    font-family:"Hiragino Kaku  Gothic ProN","Hiragino Sans","BIZ UDPGothic",sans-serif;
+    line-height:1.7;
+    color:#432; 
+}
+a{
+    text-decoration:none;
+    /* color:#000; */
+}
+img{
+    max-width:100%;
+}
+.align-center{
+    text-align:center;
+}
+.font-english{
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.page-header{
+    padding:0.5rem;
+}
+.logo{
+    width:210px;
+}
+.main-nav{
+    display:flex;
+    justify-content:center;
+    gap:2.5rem;
+    font-size:1.5rem;
+    list-style:none;
+
+}
+.main-nav a{
+    color:#432;
+    transition-property:color;
+    transition-duration:0.5s;
+    transition-timing-function:linear;
+}
+.main-nav a:hover{
+    color:#0bd;
+}
+.page-title{
+    font-size:3rem;
+    text-align:center;
+    margin-top:2rem;
+    line-height:1.4;
+}
+.cover{
+    background-size:over;
+    background-position:center bottom;
+    height: 1300px;
+}
+.cover-home{
+    background-image:url(../images/cover-home-s.webp);
+}
+.about{
+    max-width:736px;
+    padding:0 1.5rem;
+    margin:3rem auto 0;
+}
+.about p{
+    margin-bottom:3rem;
+}
+.heading-large{
+    font-size:3rem;
+    text-align:center;
+    margin-bottom:1rem;
+}
+.btn{
+    display:inline-block;
+    font-size:1.5rem;
+    background-color:#0bd;
+    color:#fff;
+    border-radius:8px;
+    padding:0.75rem 1.5rem;
+    transition-property:background-color;
+    transition-duration:1s;
+    transition-timing-function:ease-out;
+    transition-delay:200ms;
+}
+.btn:hover{
+    background-color:#0090aa;
+}

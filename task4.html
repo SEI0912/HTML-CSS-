@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>私のペット紹介</title>
+        <meta name="description" context="私のペット、ダルメシアンの紹介です。">
+    </head>
+    <body>
+        <h1>ダルメシアン</h1>
+        <p>模様が特徴の犬。<a href="https://unsplash.com/@webcreatorbox">他の写真</a>もぜひご覧ください。</p>
+        <img src="images/dog.jpg" alt="ダルメシアンの写真">
+
+        <h2>アンケート回答</h2>
+        <p>Q1.この子を可愛いと思いましたか？</p>
+        <input type="radio" name="cute" value="かわいい" id="love" checked>
+        <label for="love">かわいい</label>
+        <input type="radio" name="cute" value="かわいくない" id="notlove">
+        <label for="notlove">かわいくない</label>
+        <p>Q2.特に、どこがかわいいですか?</p>
+        <textarea name="message" placeholder="入力してください。"></textarea> 
+        <p>Q3.何匹欲しいですか？</p>
+        <div>
+            <select name="number">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            </select>
+        </div>
+        <input type="submit" value="登録">
+    </body>
+</html>
