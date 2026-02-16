@@ -142,6 +142,9 @@ img{
 .cover-menu{
     background-image:url(../images/cover-menu-s.webp);
 }
+.cover-contact{
+    background-image:url(../images/cover-menu-s.webp);
+}
 .post{
     margin-bottom:3rem; 
 }
@@ -248,6 +251,9 @@ img{
         background-image:url(../images/cover-news-l.webp);
     }
     .cover-menu{
+        background-image:url(../images/cover-menu-l.webp);
+    }
+    .cover-contact{
         background-image:url(../images/cover-menu-l.webp);
     }
     .news-contents{
